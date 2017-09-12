@@ -1,0 +1,33 @@
+{
+  "name": "allprogrammic/options-resolver",
+  "type": "library",
+  "description": "AllProgrammic OptionsResolver Component (Fork of the Symfony OptionsResolver Component)",
+  "keywords": ["options", "config", "configuration"],
+  "homepage": "https://allprogrammic.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "William Pottier",
+      "email": "developer@william-pottier.fr"
+    },
+    {
+      "name": "Symfony Community",
+      "homepage": "https://symfony.com/contributors"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9|>=7.0.8"
+  },
+  "autoload": {
+    "psr-4": { "AllProgrammic\\Component\\OptionsResolver\\": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.4-dev"
+    }
+  }
+}
